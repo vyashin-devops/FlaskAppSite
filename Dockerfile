@@ -1,6 +1,6 @@
 FROM python:alpine3.7
-COPY . /app
-WORKDIR /app
+COPY . /application
+WORKDIR /application
 RUN pip install -r requirements.txt
 EXPOSE 5001
 ENTRYPOINT [ "python" ]
