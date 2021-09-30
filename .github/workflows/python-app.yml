@@ -65,4 +65,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.KEY }}
 #         port: ${{ secrets.PORT }}
-          script: docker run --name siteflaskappindocker -d -p 5001:5001 yashinv/siteflaskappindocker
+          script: docker run --name siteflaskappindocker -d -p 5002:5002 yashinv/siteflaskappindocker
