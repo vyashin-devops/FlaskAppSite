@@ -12,7 +12,7 @@ name: Docker-Flask-Application-EC2
 on:
   push:
     branches:
-      - main
+      - _main
  
 jobs:
   Build_and_push_to_Docker:
