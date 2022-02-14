@@ -1,11 +1,11 @@
-# ------------------------------------------------
-# Program by Denis Astahov
+#------------------------------------------------------------------------------------------------------------------
+# GitHub Action Workflow to build and push Docker Flask Application to Docker Hub and run container on EC2 Instance  
 #
+# Version      Date        Info
+# 1.0          2021        Initial Version
 #
-# Version      Date           Info
-# 1.0          13-Dec-2019    Initial Version
-#
-# ----------------------------------------------
+# Made by Vyacheslav Yashin Copyleft (c)  2021 
+#-------------------------------------------------------------------------------------------------------------------
 from flask import Flask, render_template
 
 application = Flask(__name__)
